@@ -2,7 +2,7 @@ import os , sys
 from pathlib import Path
 import logging
 while True:
-    project_name = input("Enter your project name")
+    project_name = input("Enter your project name :")
     if project_name !="":
         break
 #src/__init__.py
@@ -38,3 +38,4 @@ for filepath in list_of_files:
     else:
         logging.info('file already present')
     
+
